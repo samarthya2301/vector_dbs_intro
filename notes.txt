@@ -15,3 +15,14 @@ Steps involved -
 * Store the embeddings in pinecone vector store - PineconeVectorStore
 
 035 -----
+Steps involved -
+* Create query and llm
+* Create an instance of vector store - PineconeVectorStore, provide
+ the index and embeddings
+* Combine the docs
+* Create chain with vector store and docs combined
+* Invoke and fetch
+
+036 -----
+* Do 035 using LCEL
+chain = {} | prompt | llm | output_parser
