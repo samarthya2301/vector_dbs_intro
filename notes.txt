@@ -1,0 +1,17 @@
+Vector DB -
+* In a vector db, the info is stored as an array of numbers
+* Similar things will have similar vectors
+* Different things are stored far away in vector space
+* Multimedia can be converted into vectors easily
+* So when we need a similar image, the similar vectors are queried
+* Similarity search for text, images, audio or video data
+
+034 -----
+Pinecone is the current most used vector db solution
+Steps involved -
+* Loading the blog - TextLoader
+* Splitting the blog into smaller chunks - TextSplitter
+* Embed the chunks and get vectors - OpenAIEmbeddings
+* Store the embeddings in pinecone vector store - PineconeVectorStore
+
+035 -----
