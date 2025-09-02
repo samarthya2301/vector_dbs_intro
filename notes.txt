@@ -6,6 +6,17 @@ Vector DB -
 * So when we need a similar image, the similar vectors are queried
 * Similarity search for text, images, audio or video data
 
+032 -----
+RAG - Retrieval Augmentation Generation
+* The query is plugged with a context that is fetched from a vector db
+Embeddings -
+* Everything can be converted into text, be it image, audio etc
+* Create a vectoric space from the text
+* The distance between vectors have a certain meaning
+* Vectors can represent complex objects
+* In a continuous high dimensional space, called embedding
+* Text -> Encoder/Embedding Model -> Vector
+
 034 -----
 Pinecone is the current most used vector db solution
 Steps involved -
