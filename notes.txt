@@ -21,6 +21,8 @@ Steps involved -
  the index and embeddings
 * Combine the docs
 * Create chain with vector store and docs combined
+* Vector store is the info fetched from database, so it is provided
+ as the context to the question asked
 * Invoke and fetch
 
 036 -----
